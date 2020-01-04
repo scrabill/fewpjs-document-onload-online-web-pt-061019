@@ -2,6 +2,7 @@
 const text = document.getElementById("text");
 
 document.addEventListener("DOMContentLoaded", function() {
-  text.innerText = "This is really cool!";
-  // console.log("This is really cool!");
+  text.innerHTML = "This is really cool!";
 });
+
+text.innerText = "Boring, original content";
